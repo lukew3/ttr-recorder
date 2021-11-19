@@ -23,10 +23,10 @@ let ttr = {
 
 document.addEventListener("keydown", (event) => {
         console.log(event.key);
-	ttr.data.push({
-		"time": (new Date()).getTime() - ttr.metadata.time,
-		"key": event.key
-	});
+	ttr.data.push([
+		(new Date()).getTime() - ttr.metadata.time,
+		event.key
+	]);
 	console.log(ttr.data);
 });
 

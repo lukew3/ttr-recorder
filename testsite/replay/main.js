@@ -46,7 +46,7 @@ function runReplay() {
 		renderList.push(
 			setTimeout(() => {
 				renderEvent(item);
-			}, item.time)
+			}, item[0])
 		);
 	});
 }
@@ -59,11 +59,11 @@ function stopReplay() {
 }
 
 function renderEvent(dataObj) {
-	if (dataObj.key == "Shift") {
+	if (dataObj[1] == "Shift") {
 		return;
-	} else if (dataObj.key == "Backspace") {
+	} else if (dataObj[1] == "Backspace") {
 		displayField.value = displayField.value.slice(0, -1);
 	} else {
-		displayField.value += dataObj.key;
+		displayField.value += dataObj[1];
 	}
 }
