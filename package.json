@@ -1,0 +1,12 @@
+{
+  "name": "ttr-recorder",
+  "version": "1.0.0",
+  "description": "A tool for recording and exporting typing test data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luke Weiler",
+  "license": "ISC"
+}
