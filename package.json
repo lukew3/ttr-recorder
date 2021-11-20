@@ -1,12 +1,20 @@
 {
   "name": "ttr-recorder",
-  "version": "1.0.0",
-  "description": "A tool for recording and exporting typing test data",
+  "version": "1.0.1",
+  "description": "Javascript package to record and export .ttr typing test files.",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukew3/ttr-recorder.git"
   },
   "keywords": [],
   "author": "Luke Weiler",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukew3/ttr-recorder/issues"
+  },
+  "homepage": "https://github.com/lukew3/ttr-recorder#readme"
 }
