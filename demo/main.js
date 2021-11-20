@@ -1,4 +1,6 @@
 const ttr = require("../index.js");
+//Usually the module import would be:
+//const ttr = require("ttr-recorder");
 
 ttr.setMetadata({
 	username: "lukew3",
