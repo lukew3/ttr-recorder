@@ -26,7 +26,7 @@ document.getElementById("downloadButton").addEventListener("click", (event) => {
 ### Methods
 
 #### setMetadata(metadata)
-Set the the metadata properties of the current ttr file
+Set the the metadata properties of the ttr object
 
 #### startNewRecording()
 After running this function, ttr-recorder will empty old data from the ttr object, set metadata.time to the current time, and start listening for keystrokes to add to ttr.data.
