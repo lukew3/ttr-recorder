@@ -4,7 +4,7 @@
   "description": "Javascript package to record and export .ttr typing test files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
