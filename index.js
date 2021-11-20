@@ -1,13 +1,6 @@
 let recordingActive = false;
 let ttr = {
-	metadata: {
-		username: "lukew3",
-		software: "ttr custom",
-		time: (new Date()).getTime(),
-		"prompt": "The quick brown fox jumps over the lazy dog",
-		language: "english",
-		mode: "words",
-	},
+	metadata: {},
 	data: []
 };
 
@@ -23,7 +16,6 @@ const downloadObjectAsJson = (exportObj, exportName) => {
 
 document.addEventListener("keydown", (event) => {
 	if (recordingActive) {
-		console.log(event.key);
 		ttr.data.push([
 			(new Date()).getTime() - ttr.metadata.time,
 			event.key
@@ -59,5 +51,6 @@ module.exports = {
 	startNewRecording,
 	resumeRecording,
 	stopRecording,
+	setMetadata,
 	downloadFile
 }
