@@ -4,7 +4,7 @@
   "description": "A tool for recording and exporting typing test data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "keywords": [],
   "author": "Luke Weiler",
