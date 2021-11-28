@@ -5,9 +5,8 @@ Javascript package to record and export .ttr typing test files.
 ## Usage
 The following code is used in the `main.js` file of the demo project, which can be found in the [demo](https://github.com/lukew3/ttr-recorder/tree/main/demo) directory.
 ```javascript
-const ttr = require("../index.js");
-//Usually the module import would be:
-//const ttr = require("ttr-recorder");
+const ttr = require("ttr-recorder");
+// In the example file, ttr is imported from "../index.js", because it is using the local code
 
 ttr.setMetadata({
         username: "lukew3",
