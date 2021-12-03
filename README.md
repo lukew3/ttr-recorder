@@ -1,6 +1,6 @@
 # ttr-recorder
 
-Javascript package to record and export .ttr typing test files.
+Javascript package to record and export .ttr typing test files. Read more about the .ttr file format [here](https://github.com/lukew3/ttr-typing-test-file-format)
 
 ## Usage
 The following code is used in the `main.js` file of the demo project, which can be found in the [demo](https://github.com/lukew3/ttr-recorder/tree/main/demo) directory.
