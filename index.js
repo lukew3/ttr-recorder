@@ -1,5 +1,6 @@
 let recordingActive = false;
 let ttr = {
+	ttrversion: "0.0.1"
 	metadata: {},
 	data: []
 };
@@ -22,6 +23,13 @@ document.addEventListener("keydown", (event) => {
 		]);
 	}
 });
+
+const setFirstChar = () => {
+	ttr.data.unshift([
+		0,
+		ttr.metadata.prompt.charAt(0)
+	});
+};
 
 const startNewRecording = () => {
 	ttr.data = [];
