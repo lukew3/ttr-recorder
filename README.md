@@ -27,6 +27,9 @@ document.getElementById("downloadButton").addEventListener("click", (event) => {
 #### setMetadata(metadata)
 Set the the metadata properties of the ttr object
 
+#### setFirstChar()
+Sets the first event in data to the first letter of the prompt at time 0. This is necessary when the software chooses to start recording after the first keystroke.
+
 #### startNewRecording()
 After running this function, ttr-recorder will empty old data from the ttr object, set metadata.time to the current time, and start listening for keystrokes to add to ttr.data.
 
