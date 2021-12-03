@@ -1,6 +1,6 @@
 let recordingActive = false;
 let ttr = {
-	ttrversion: "0.0.1"
+	ttrversion: "0.0.1",
 	metadata: {},
 	data: []
 };
