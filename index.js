@@ -56,6 +56,7 @@ const downloadFile = () => {
 }
 
 module.exports = {
+	setFirstChar,
 	startNewRecording,
 	resumeRecording,
 	stopRecording,
