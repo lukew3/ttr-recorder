@@ -28,7 +28,7 @@ const setFirstChar = () => {
 	ttr.data.unshift([
 		0,
 		ttr.metadata.prompt.charAt(0)
-	});
+	]);
 };
 
 const startNewRecording = () => {
