@@ -38,3 +38,6 @@ Running this will stop keystrokes from being recorded
 
 #### downloadFile()
 Running this will download the current ttr file to your computer
+
+#### getJson() (coming soon)
+Gets the content of current ttr file as json
