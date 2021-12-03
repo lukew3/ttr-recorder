@@ -1,6 +1,6 @@
 {
   "name": "ttr-recorder",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Javascript package to record and export .ttr typing test files.",
   "main": "index.js",
   "scripts": {
